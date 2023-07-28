@@ -872,19 +872,19 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #fff;
+  color: rgb(27,20,100);
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: rgb(27,20,100);
+  background: #fff;
   border: 2px solid rgb(27,20,100);
   border-radius: 4px;
 }
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
-  background: #fff;
-  color: rgb(27,20,100);
-  border: 2px solid rgb(27,20,100);
+  background: rgb(27,20,100);
+  color: #fff;
+  border: 1px solid rgb(27,20,100);
 }
 
 .menu #menu-flters li:last-child {
@@ -1029,9 +1029,9 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #fff;
-  color: rgb(27,20,100);
-  border: 2px solid rgb(27,20,100);
+  background: rgb(27,20,100);
+  color: #fff;
+  border: 1px solid rgb(27,20,100);
 }
 
 .portfolio #portfolio-flters li:last-child {
