@@ -1831,6 +1831,7 @@ section {
   background-position: center center;
   background-size: cover;
   position: relative;
+  margin-top: 40px;
 }
 
 .testimonials::before {
