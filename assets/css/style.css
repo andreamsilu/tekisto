@@ -1800,8 +1800,8 @@ section {
 }
 
 .chefs .member .social a:hover {
-  background: #fff;
-  color: rgb(27,20,100);
+  background: rgb(27,20,100);
+  color: white;
   border: 2px solid rgb(27,20,100);
 }
 
