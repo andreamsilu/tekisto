@@ -62,7 +62,7 @@ h6 {
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
-#topbar {
+/* #topbar {
   padding: 0;
   font-size: 15px;
   height: 50px;
@@ -90,13 +90,13 @@ h6 {
   font-style: normal;
   font-size: 20px;
   padding-left: 5px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  top: 50px;
+  top: 0px;
   height: 70px;
   z-index: 997;
   transition: all 0.5s;
@@ -131,6 +131,7 @@ h6 {
   padding: 0;
   margin: 0;
   max-height: 90px;
+  margin-right: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -142,17 +143,18 @@ h6 {
   border-radius: 4px;
   margin: 0 0 0 20px;
   padding: 10px 25px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
   letter-spacing: 1px;
   transition: 0.3s;
   white-space: nowrap;
 }
 
 .book-a-table-btn:hover {
+  font-size: 18px;
   background: #fff;
   color: rgb(27,20,100);
-  border: 2px solid rgb(27,20,100);
+  border: 1px solid rgb(27,20,100);
 }
 
 @media (max-width: 992px) {
