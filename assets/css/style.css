@@ -1233,7 +1233,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-/* .contact .info-box {
+.contact .info-box {
   color: #444444;
   padding: 20px;
   width: 100%;
@@ -1332,18 +1332,22 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
+  /* border-radius:4px; */
+  box-shadow: rgb(27,20,100);
   font-size: 14px;
   background: rgba(255, 255, 255, 0.08);
-  border: 0;
+  border: 2px solid  rgb(27,20,100);
   transition: 0.3s;
   color: #fff;
+  border-radius: 20px;
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
+  border: blue solid 2px;
+  border-radius: 4px;
+
 }
 
 .contact .php-email-form input::-moz-placeholder,
@@ -1364,7 +1368,7 @@ section {
 
 .contact .php-email-form textarea {
   padding: 12px 15px;
-} */
+} 
 
 .contact .php-email-form button[type=submit] {
   background: rgb(27,20,100);
